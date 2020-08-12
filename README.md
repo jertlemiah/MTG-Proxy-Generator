@@ -1,0 +1,2 @@
+# MTG-Proxy-Generator
+My MTG Proxy Generator does two things that makes it unique among any other proxy generator that is available online. 1: it takes two deck lists (of card names) and splices them together into a single proxy list using the ScryFall API to search for the card information. 2: it uses colored borders instead of black and white, and mana symbols instead of of {R}. This is to help with dyslexic players such as myself.
