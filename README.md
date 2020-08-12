@@ -5,7 +5,7 @@ My MTG Proxy Generator does two things that makes it unique among any other prox
 
 2: it uses colored borders instead of black and white, and mana symbols instead of of {R}. 
 
-The idead of this proxy generator is essentially to cut the art out of a card, which cuts the card in half, and then gluing two halfs (from different decks) together into a single proxy. That way you can play one deck right side up or a second deck upside down.
+The idea of this proxy generator is essentially to cut the art out of a card, which cuts the card in half, and then glue two halfs (from different decks) together into a single proxy. That way you can play one deck right side up or a second deck upside down.
 
 Part of my goal was to help with dyslexic players such as myself since nearly all proxy generators that scrape information with an API are just walls of text that are difficult to parse at a glance. The addition of colors and the correct symbols greatly helps with readability. 
 
