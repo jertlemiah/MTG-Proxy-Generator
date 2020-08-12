@@ -12,3 +12,8 @@ Part of my goal was to help with dyslexic players such as myself since nearly al
 Proxies still contain all relavent information (cost, typeline, oracle text), as well as optionally provided information like the deckname.
 
 This is a work in progress, with the end-goal of the project being hosted online for public use.
+
+Check out the "Sample Outputs" folder to see images of what the cards of various types should be looking like.
+
+KNOWN BUGS:
+Update in the hybrid generic mana on Scryfall's API causes an error in retrieving the mana symbol on my side
