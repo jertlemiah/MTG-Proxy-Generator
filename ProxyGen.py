@@ -4,6 +4,7 @@
 # Clicking "Build" on the menu will generate a PDF in the output folder
 # This building process is very slow
 # The progress of the build is displayed in the output console
+# PIL/Pillow must be installed. "$ pip install Pillow" should do it
 
 from PIL import Image, ImageDraw, ImageFont
 import textwrap
