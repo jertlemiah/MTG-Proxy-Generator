@@ -1,3 +1,10 @@
+# Author: Jeremiah Plauche
+
+# This is the main file that creates a menu interface and handles all operations
+# Clicking "Build" on the menu will generate a PDF in the output folder
+# This building process is very slow
+# The progress of the build is displayed in the output console
+
 from PIL import Image, ImageDraw, ImageFont
 import textwrap
 from math import atan2
@@ -36,7 +43,7 @@ offset_type_y = height - 95  #440
 
 def createPDF(proxyList):
 	#createProxy("main","Splinter Twin","Tasigur, the Golden Fang","Junk","Vault Skirge")
-	c = canvas2.Canvas("Proxies.pdf")
+	c = canvas2.Canvas("Output/Proxies.pdf")
 	c.setPageSize((8.5*inch,11*inch))
 
 	card_x = 2.5
@@ -122,7 +129,7 @@ def combineLists(deckname1,main1,side1,deckname2,main2,side2):
 #createProxy("main","Splinter Twin","Steam Vents","Junk","Zealous Persecution").show()
 #createProxy("main","Splinter Twin","Reaper King","Junk","Chandra, Torch of Defiance").show()
 #createProxy("main","Splinter Twin","Tasigur, the Golden Fang","Junk","Vault Skirge").show()
-createProxy("main","Splinter Twin","Nicol Bolas, God-Pharaoh","Junk","Gideon, Ally of Zendikar").show()
+#createProxy("main","Splinter Twin","Nicol Bolas, God-Pharaoh","Junk","Gideon, Ally of Zendikar").show()
 #createProxy("main","Splinter Twin","Driven // Despair","Junk","Triumph of Gerard").show()
 
 class createMenu():
@@ -203,6 +210,7 @@ class createMenu():
 		canvas = Canvas(self.master,width = menuWidth, height = menuHeight)
 		canvas.grid(row = 4, column = 6)
 		img = ImageTk.PhotoImage(Image.open("Full Card.png"))
+		#img = ImageTk.PhotoImage(Image.create_image("Full Card.png"))
 		canvas.create_image(0,0,anchor=NW,image = img)
 
 		#__________DECK A__________#
