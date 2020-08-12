@@ -1,0 +1,187 @@
+StartChar: OE
+Encoding: 338 338 85
+Width: 1007
+Flags: W
+TtInstrs:
+NPUSHB
+ 60
+ 1
+ 67
+ 67
+ 64
+ 68
+ 41
+ 64
+ 57
+ 41
+ 30
+ 22
+ 21
+ 8
+ 3
+ 66
+ 28
+ 16
+ 3
+ 27
+ 0
+ 3
+ 49
+ 41
+ 40
+ 4
+ 42
+ 58
+ 57
+ 4
+ 55
+ 23
+ 22
+ 4
+ 21
+ 20
+ 64
+ 63
+ 12
+ 4
+ 55
+ 27
+ 26
+ 4
+ 17
+ 16
+ 4
+ 4
+ 42
+ 31
+ 30
+ 4
+ 42
+ 56
+ 55
+ 43
+ 42
+ 0
+ 1
+ 49
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SVTCA[y-axis]
+MIAP[rnd]
+ALIGNRP
+MDAP[rnd]
+ALIGNRP
+SRP0
+MIRP[rp0,min,rnd,black]
+ALIGNRP
+SRP0
+MIRP[rp0,min,rnd,black]
+MDAP[rnd]
+ALIGNRP
+MIRP[rp0,min,rnd,black]
+ALIGNRP
+SRP0
+MIRP[rp0,min,rnd,black]
+ALIGNRP
+ALIGNRP
+MDAP[rnd]
+ALIGNRP
+MIRP[rp0,min,rnd,black]
+ALIGNRP
+SRP0
+MIRP[rp0,min,rnd,black]
+ALIGNRP
+SRP0
+MIRP[rp0,min,rnd,black]
+ALIGNRP
+SVTCA[x-axis]
+MDAP[rnd]
+MIRP[rp0,min,rnd,black]
+MDAP[rnd]
+SLOOP
+ALIGNRP
+MIRP[rp0,min,rnd,black]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+SVTCA[y-axis]
+IUP[x]
+IUP[y]
+SVTCA[x-axis]
+MD[grid]
+ROUND[Grey]
+PUSHW_2
+ 49
+ 67
+MD[grid]
+ROUND[Grey]
+SUB
+PUSHB_1
+ 64
+GT
+IF
+SHPIX
+SRP1
+SHZ[rp1]
+PUSHW_2
+ 67
+ -64
+SHPIX
+EIF
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+162 372 m 0,0,1
+ 162 259 162 259 208 163 c 0,2,3
+ 266 43 266 43 367 43 c 0,4,5
+ 457 43 457 43 506 136 c 0,6,7
+ 545 210 545 210 545 309 c 0,8,9
+ 545 420 545 420 501 511 c 0,10,11
+ 446 627 446 627 347 627 c 0,12,13
+ 279 627 279 627 227 574 c 0,14,15
+ 162 507 162 507 162 372 c 0,0,1
+665 370 m 1,16,-1
+ 738 370 l 2,17,18
+ 793 370 793 370 814 390.5 c 128,-1,19
+ 835 411 835 411 839 466 c 1,20,-1
+ 884 466 l 1,21,-1
+ 884 226 l 1,22,-1
+ 840 226 l 1,23,24
+ 831 283 831 283 809 305.5 c 128,-1,25
+ 787 328 787 328 732 328 c 2,26,-1
+ 667 328 l 1,27,-1
+ 667 326 l 2,28,29
+ 667 156 667 156 512 39 c 1,30,-1
+ 744 39 l 2,31,32
+ 794 39 794 39 817 46 c 0,33,34
+ 849 55 849 55 878 85 c 0,35,36
+ 899 107 899 107 904 113 c 0,37,38
+ 914 125 914 125 937 162 c 2,39,-1
+ 942 170 l 1,40,-1
+ 983 170 l 1,41,-1
+ 950 0 l 1,42,-1
+ 399 0 l 2,43,44
+ 278 0 278 0 215 32 c 0,45,46
+ 172 54 172 54 133 95 c 0,47,48
+ 43 191 43 191 43 338 c 0,49,50
+ 43 436 43 436 86 513 c 0,51,52
+ 132 594 132 594 218 634 c 0,53,54
+ 286 666 286 666 390 666 c 2,55,-1
+ 933 666 l 1,56,-1
+ 939 513 l 1,57,-1
+ 904 513 l 1,58,-1
+ 899 522 l 2,59,60
+ 870 574 870 574 858 589 c 0,61,62
+ 827 627 827 627 723 627 c 2,63,-1
+ 507 627 l 1,64,65
+ 641 551 641 551 665 373 c 1,66,-1
+ 665 370 l 1,16,-1
+EndSplineSet
+EndChar

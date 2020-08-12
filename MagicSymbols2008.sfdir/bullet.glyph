@@ -1,0 +1,70 @@
+StartChar: bullet
+Encoding: 8226 8226 90
+Width: 255
+Flags: W
+TtInstrs:
+NPUSHB
+ 14
+ 1
+ 12
+ 12
+ 64
+ 13
+ 3
+ 9
+ 3
+ 3
+ 0
+ 6
+ 1
+ 9
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SVTCA[y-axis]
+MDAP[rnd]
+MDAP[rnd]
+SVTCA[x-axis]
+MDAP[rnd]
+MIRP[rp0,min,rnd,black]
+SVTCA[y-axis]
+IUP[x]
+IUP[y]
+SVTCA[x-axis]
+MD[grid]
+ROUND[Grey]
+PUSHW_2
+ 9
+ 12
+MD[grid]
+ROUND[Grey]
+SUB
+PUSHB_1
+ 64
+GT
+IF
+SHPIX
+SRP1
+SHZ[rp1]
+PUSHW_2
+ 12
+ -64
+SHPIX
+EIF
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+127 407 m 0,0,1
+ 156 407 156 407 176 387.5 c 128,-1,2
+ 196 368 196 368 196 339 c 0,3,4
+ 196 311 196 311 175.5 291 c 128,-1,5
+ 155 271 155 271 127 271 c 256,6,7
+ 99 271 99 271 79 291 c 128,-1,8
+ 59 311 59 311 59 339 c 256,9,10
+ 59 367 59 367 79 387 c 128,-1,11
+ 99 407 99 407 127 407 c 0,0,1
+EndSplineSet
+EndChar

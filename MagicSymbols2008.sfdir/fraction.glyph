@@ -1,0 +1,86 @@
+StartChar: fraction
+Encoding: 8260 8260 166
+Width: 164
+Flags: W
+TtInstrs:
+NPUSHB
+ 23
+ 1
+ 4
+ 4
+ 64
+ 5
+ 0
+ 2
+ 0
+ 2
+ 3
+ 6
+ 1
+ 0
+ 0
+ 1
+ 3
+ 0
+ 2
+ 1
+ 0
+ 1
+ 2
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SVTCA[y-axis]
+MIAP[rnd]
+ALIGNRP
+MDAP[rnd]
+ALIGNRP
+SVTCA[x-axis]
+SDPVTL[orthog]
+MDAP[no-rnd]
+SFVTPV
+MDRP[rnd,grey]
+SFVTPV
+MIRP[rp0,min,rnd,grey]
+SFVTPV
+MDRP[rnd,grey]
+SVTCA[x-axis]
+MDAP[no-rnd]
+MDAP[no-rnd]
+SVTCA[y-axis]
+IUP[x]
+IUP[y]
+SVTCA[x-axis]
+MD[grid]
+ROUND[Grey]
+PUSHW_2
+ 2
+ 4
+MD[grid]
+ROUND[Grey]
+SUB
+PUSHB_1
+ 64
+GT
+IF
+SHPIX
+SRP1
+SHZ[rp1]
+PUSHW_2
+ 4
+ -64
+SHPIX
+EIF
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+306 661 m 1,0,-1
+ -101 0 l 1,1,-1
+ -141 0 l 1,2,-1
+ 266 661 l 1,3,-1
+ 306 661 l 1,0,-1
+EndSplineSet
+EndChar

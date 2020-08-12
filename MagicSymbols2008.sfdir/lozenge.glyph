@@ -1,0 +1,165 @@
+StartChar: lozenge
+Encoding: 9674 9674 177
+Width: 666
+Flags: W
+TtInstrs:
+NPUSHB
+ 71
+ 1
+ 8
+ 8
+ 64
+ 9
+ 5
+ 2
+ 0
+ 7
+ 5
+ 3
+ 1
+ 2
+ 1
+ 2
+ 3
+ 6
+ 3
+ 0
+ 6
+ 6
+ 7
+ 5
+ 5
+ 6
+ 0
+ 3
+ 0
+ 1
+ 6
+ 1
+ 2
+ 4
+ 4
+ 5
+ 7
+ 7
+ 4
+ 1
+ 0
+ 1
+ 2
+ 6
+ 2
+ 3
+ 7
+ 7
+ 4
+ 6
+ 6
+ 7
+ 3
+ 2
+ 3
+ 0
+ 6
+ 0
+ 1
+ 5
+ 5
+ 6
+ 4
+ 4
+ 5
+ 6
+ 0
+ 4
+ 1
+ 1
+ 7
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SVTCA[y-axis]
+MIAP[rnd]
+MIAP[rnd]
+SVTCA[x-axis]
+SDPVTL[orthog]
+MDAP[no-rnd]
+SFVTL[parallel]
+MDRP[rnd,grey]
+SFVTL[parallel]
+MIRP[rp0,min,rnd,grey]
+SFVTL[parallel]
+MDRP[rnd,grey]
+SDPVTL[orthog]
+MDAP[no-rnd]
+SFVTL[parallel]
+MDRP[rnd,grey]
+SFVTL[parallel]
+MIRP[rp0,min,rnd,grey]
+SFVTL[parallel]
+MDRP[rnd,grey]
+SDPVTL[orthog]
+MDAP[no-rnd]
+SFVTL[parallel]
+MDRP[rnd,grey]
+SFVTL[parallel]
+MIRP[rp0,min,rnd,grey]
+SFVTL[parallel]
+MDRP[rnd,grey]
+SDPVTL[orthog]
+MDAP[no-rnd]
+SFVTL[parallel]
+MDRP[rnd,grey]
+SFVTL[parallel]
+MIRP[rp0,min,rnd,grey]
+SFVTL[parallel]
+MDRP[rnd,grey]
+SVTCA[x-axis]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+SVTCA[y-axis]
+MDAP[no-rnd]
+MDAP[no-rnd]
+IUP[x]
+IUP[y]
+SVTCA[x-axis]
+MD[grid]
+ROUND[Grey]
+PUSHW_2
+ 7
+ 8
+MD[grid]
+ROUND[Grey]
+SUB
+PUSHB_1
+ 64
+GT
+IF
+SHPIX
+SRP1
+SHZ[rp1]
+PUSHW_2
+ 8
+ -64
+SHPIX
+EIF
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+332 610 m 1,0,-1
+ 137 334 l 1,1,-1
+ 332 60 l 1,2,-1
+ 529 334 l 1,3,-1
+ 332 610 l 1,0,-1
+332 681 m 1,4,-1
+ 584 334 l 1,5,-1
+ 332 -14 l 1,6,-1
+ 82 334 l 1,7,-1
+ 332 681 l 1,4,-1
+EndSplineSet
+EndChar

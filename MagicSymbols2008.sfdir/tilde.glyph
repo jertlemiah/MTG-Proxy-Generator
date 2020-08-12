@@ -1,0 +1,86 @@
+StartChar: tilde
+Encoding: 732 732 93
+Width: 502
+Flags: W
+TtInstrs:
+NPUSHB
+ 21
+ 1
+ 19
+ 19
+ 64
+ 20
+ 9
+ 9
+ 1
+ 6
+ 4
+ 13
+ 17
+ 4
+ 3
+ 3
+ 8
+ 13
+ 0
+ 1
+ 1
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SVTCA[y-axis]
+MDAP[rnd]
+ALIGNRP
+MDAP[rnd]
+ALIGNRP
+SRP0
+MIRP[rp0,min,rnd,black]
+SRP0
+MIRP[rp0,min,rnd,black]
+SVTCA[x-axis]
+MDAP[no-rnd]
+MDAP[no-rnd]
+SVTCA[y-axis]
+IUP[x]
+IUP[y]
+SVTCA[x-axis]
+MD[grid]
+ROUND[Grey]
+PUSHW_2
+ 1
+ 19
+MD[grid]
+ROUND[Grey]
+SUB
+PUSHB_1
+ 64
+GT
+IF
+SHPIX
+SRP1
+SHZ[rp1]
+PUSHW_2
+ 19
+ -64
+SHPIX
+EIF
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+133 520 m 1,0,-1
+ 103 535 l 1,1,2
+ 129 641 129 641 195 641 c 0,3,4
+ 219 641 219 641 265 615.5 c 128,-1,5
+ 311 590 311 590 328 590 c 0,6,7
+ 361 590 361 590 384 642 c 1,8,-1
+ 410 628 l 1,9,10
+ 404 586 404 586 384 557 c 0,11,12
+ 359 521 359 521 320 521 c 0,13,14
+ 292 521 292 521 248 544 c 0,15,16
+ 198 570 198 570 186 570 c 0,17,18
+ 155 570 155 570 133 520 c 1,0,-1
+EndSplineSet
+EndChar
