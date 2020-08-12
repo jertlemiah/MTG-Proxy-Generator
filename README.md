@@ -1,9 +1,8 @@
 # MTG-Proxy-Generator
-My MTG Proxy Generator does two things that makes it unique among any other proxy generator that is available online. 
 Run the "ProxyGen.py" file to run the current menu version.
 
+My Magic the Gathering (MTG) Proxy Generator does two things that makes it unique among any other proxy generator that is available online. 
 1: it takes two deck lists (of card names) and splices them together into a single proxy list using the ScryFall API to search for the card information. 
-
 2: it uses colored borders instead of black and white, and mana symbols instead of of {R}. 
 
 The idea of this proxy generator is essentially to cut the art out of a card, which cuts the card in half, and then glue two halfs (from different decks) together into a single proxy. That way you can play one deck right side up or a second deck upside down.
