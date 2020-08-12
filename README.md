@@ -1,5 +1,6 @@
 # MTG-Proxy-Generator
 My MTG Proxy Generator does two things that makes it unique among any other proxy generator that is available online. 
+Run the "ProxyGen.py" file to run the current menu version.
 
 1: it takes two deck lists (of card names) and splices them together into a single proxy list using the ScryFall API to search for the card information. 
 
@@ -15,5 +16,4 @@ This is a work in progress, with the end-goal of the project being hosted online
 
 Check out the "Sample Outputs" folder to see images of what the cards of various types should be looking like.
 
-KNOWN BUGS:
-Update in the hybrid generic mana on Scryfall's API causes an error in retrieving the mana symbol on my side
+
