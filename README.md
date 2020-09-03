@@ -19,6 +19,8 @@ Proxies made from this proxygen still contain all relavent information (cost, ty
 
 A lot of this will immediately make sense if you check the Sample Outputs folder.
 
+I hope to eventually include a bunch of settings that can change the output of the generator, such as ignoring reminder text, black and white mode, and turning off mana symbols.
+
 ***Operation***
 
 Run the "ProxyGen.py" file to run the current menu version.
