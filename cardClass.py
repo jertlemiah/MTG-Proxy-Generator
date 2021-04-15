@@ -1459,7 +1459,7 @@ def gauntlet():
 			deckName = "Deckname guantlet test",
 			cardName = cardName).createImage().save(cardName+".png")#.show()
 
-#createProxy("side","Splinter Twin","Tasigur, the Golden Fang","Junk","Vault Skirge").show()
+createProxy("side","Splinter Twin","Tasigur, the Golden Fang","Junk","Vault Skirge").show()
 
 
 #gauntlet()
