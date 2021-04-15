@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<link rel="stylesheet" href="styles.css">
+	</head>
+
+	<body>
+
+	<div> 
+
+
+		<div class = "navbar-collapse collapse">
+			
+			<ul class="nav navbar-nav">
+				
+				<li>
+					<a  class="active" href ="/">Home</a>
+				</li>
+				<li>
+					<a href ="/faq">FAQ</a>
+				</li>
+				<li>
+					<a href ="/changelog">Changelog</a>
+				</li>
+				<li>
+					<a href ="/contact">Contact</a>
+				</li>
+				
+			</ul>
+			
+		</div>
+
+	</div>
+
+	<div class = "main-page">
+		<div class="column" style="background-color:#aaa;">
+			<h1>Deck 1</h1>
+			<form action="/action_page.php">
+				<label for="deck1name">Deck name:</label><br>
+				<input type="text" id="deckname1" name="deck1name"><br><br>
+
+				<label for="deck1list">Deck list:</label><br>
+				<textarea name="deck1list" rows="10" cols="30">10 Island&#13;&#10;4 Splinter Twin
+				</textarea>
+
+				<!-- deck settings collapsable -->
+				<button type="button" class="collapsible">Deck settings</button>
+				<div class="content">
+					<p>
+						<label for="deck1color">Deck color:</label>
+						<input type="color" id="deck1color" value="#000000"><br>
+
+						<label for="deck1tokens">Include tokens?:</label>
+						<input type="checkbox" type="color" id="deck1tokens"><br>
+
+						<label for="deck1emblems">Include emblems?:</label>
+						<input type="checkbox" type="color" id="deck1emblems"><br>
+
+						<label for="deck1remtxt">Include reminder text?:</label>
+						<input type="checkbox" type="color" id="deck1remtxt" checked><br>
+
+						<label for="deck1manatxt">Include mana symbols?:</label>
+						<input type="checkbox" type="color" id="deck1manatxt" checked><br>
+
+						<label for="deck1manatxt">Include mana symbols?:</label>
+						<input type="checkbox" type="color" id="deck1manatxt" checked><br>
+
+						<label for="deck1manawatermark">Include mana watermarks with landtypes?:</label>
+						<input type="checkbox" type="color" id="deck1manawatermark" checked><br>
+					</p>
+					</p>
+				</div>
+
+				<!-- card preview collapsable -->
+				<button type="button" class="collapsible" class="active">Card preview</button>
+				<div class="content">
+					<input type="generatePreview" value="Generate preview">
+					<image src="C:\Users\Jeremiah\Documents\GitHub\MTG-Proxy-Generator\Sample outputs\Aether Hub.png" alt="Deck 1 preview" style="width:100%">
+				</div>
+
+				<input type="submit" value="Submit">
+				
+			</form>
+
+
+		</div>
+		<div class="column" style="background-color:#bbb;">
+			<h1>Deck 2</h1>			
+
+		</div>
+
+	</div>
+
+	<script>
+		var coll = document.getElementsByClassName("collapsible");
+		var i;
+
+		for (i = 0; i < coll.length; i++) {
+		  coll[i].addEventListener("click", function() {
+		    this.classList.toggle("active");
+		    var content = this.nextElementSibling;
+		    if (content.style.maxHeight){
+		      content.style.maxHeight = null;
+		    } else {
+		      content.style.maxHeight = content.scrollHeight + "px";
+		    }
+		  });
+		}
+	</script>
+
+	</body>
+</html>
